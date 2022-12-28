@@ -23,7 +23,7 @@ pipeline {
 //             steps { 
 //                withDockerRegistry([credentialsId: "dockerlogin", url: ""]) {
 //                  script{
-//                  app =  docker.build("tech365image")
+//                  app =  docker.build("ayodejiimage")
 //                  }
 //                }
 //             }
