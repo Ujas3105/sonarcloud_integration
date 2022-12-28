@@ -21,7 +21,7 @@ pipeline {
 // building docker image
 stage('Build') { 
             steps { 
-               withDockerRegistry([credentialsId: "Dockerlogin", url: ""]) {
+               withDockerRegistry([credentialsId: "dockerlogin", url: ""]) {
                  script{
                  app =  docker.build("ayodejiimage")
                  }
